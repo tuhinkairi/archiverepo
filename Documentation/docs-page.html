@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Habu - Agency Vuejs Template</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Bootstrap 4 Template For Software Startups">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="docs-page">
+	<header class="header fixed-top">
+		<div class="branding docs-branding">
+			<div class="container-fluid position-relative py-2">
+				<div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible mr-2 d-xl-none"
+						type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon mr-2"
+								src="assets/images/logo.png" alt="logo"><span class="logo-text"><span
+									class="text-alt">Documentation</span></span></a></div>
+				</div>
+				<!--//docs-logo-wrapper-->
+				
+			</div>
+			<!--//container-->
+		</div>
+		<!--//branding-->
+	</header>
+	<!--//header-->
+
+	<div class="docs-wrapper">
+		<div id="docs-sidebar" class="docs-sidebar">
+			<div class="top-search-box d-lg-none p-3">
+				<form class="search-form">
+					<input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+					<button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+			<nav id="docs-nav" class="docs-nav navbar">
+				<ul class="section-items list-unstyled nav flex-column pb-3">
+					<li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Introduction</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Features Overview</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Credits</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-arrow-down"></i></span>Installation</a>
+					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Process</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">File Structure</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-box"></i></span>Page Structures</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Homepage 1</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Homepage 2</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">About</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-4">Pricing</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-5">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-6">Portfolio Details</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-7">FAQ</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-8">Career</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-9">Contact</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-10">Blog</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-11">Blog Details</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Layouts</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Top Header</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Menu Style 1</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Menu Style 2</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-4">Page Header</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-5">Sidebar</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-6">Reviews</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-7">Custom Projects</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-8">Subscribe Form</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-9">Comment Area</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-10">Footer</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-tools"></i></span>Stylesheets &
+							Icons</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Stylesheets</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Icons</a></li>
+
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-6"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-laptop-code"></i></span>Support</a></li>
+				</ul>
+
+			</nav>
+			<!--//docs-nav-->
+		</div>
+		<!--//docs-sidebar-->
+		<div class="docs-content">
+			<div class="container">
+				<article class="docs-article" id="section-1">
+					<header class="docs-header">
+						<h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2019-02-04</span>
+						</h1>
+						<section class="docs-intro">
+							<p>Habu - Agency Vuejs template based on vue-cli and vue-router.</p>
+							<p>Habu Vuejs template is a modern next generation template. It is created for business,
+								corporate, company, personal, portfolio, startup, studio or any other similar use.
+								<br>It is feature rich, responsive, easy to customize, and out of any jquery dependency.
+								You can change any codes within if you have enough knowledge in HTML, CSS, Javascript
+								and Vuejs coding.
+							</p>
+						</section>
+					</header>
+
+					<section class="docs-section" id="item-1-1">
+						<h2 class="section-heading">Features Overview</h2>
+						<ol>
+							<li>Made with Vue Cli</li>
+							<li>Pure Vuejs, no jQuery</li>
+							<li>Integrated with Vue-Router, no loading.</li>
+							<li>Well structured and customizable CSS code.</li>
+							<li>Fontawesome icons.</li>
+							<li>Clean And Organized Code.</li>
+							<li>Well Documented Code.</li>
+							<li>Statndard Folder Stucture.</li>
+							<li>And many more inside.....</li>
+						</ol>
+
+
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">Credits</h2>
+						<p>Special Thanks To These Awesome Plugins That Helps Us to Build This Awesome Template.</p>
+
+						<div class="table-responsive my-4">
+							<table class="table table-striped">
+								<tbody>
+									<tr>
+										<td><a href="https://vuejs.org/">Vue</a></td>
+										<td><a href="https://cli.vuejs.org/">Vue Cli</a></td>
+										<td><a href="https://router.vuejs.org/">Vue Router</a></td>
+										<td><a href="https://babeljs.io/">Babel</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://bootstrap-vue.org/">BootstrapVue</a></td>
+										<td><a href="https://www.npmjs.com/package/vue-slick-carousel">VueSlickCarousel</a></td>
+										<td><a href="https://vincentgarreau.com/particles.js/">Particles JS</a></td>
+										<td><a href="https://www.npmjs.com/package/vue-countup-v2">ICountUp</a></td>
+									</tr>
+									<tr>
+										<td><a href="https://wowjs.uk/">WOW.js</a></td>
+										<td><a href="https://necolas.github.io/normalize.css/">Normalize.css</a></td>
+										<td><a href="https://github.com/FortAwesome/vue-fontawesome">Vue-Fontawesome</a></td>
+										<td><a href="https://animate.style/">Animate.css</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+					<!--//section-->
+
+
+				</article>
+
+				<article class="docs-article" id="section-2">
+					<header class="docs-header">
+						<h1 class="docs-heading">Installation</h1>
+						<section class="docs-intro">
+							<p>Before you begin make sure you have a code editor, you can use <a
+									href="https://code.visualstudio.com/download">VSCode</a> or any other editor like <a
+									href="http://notepad-plus-plus.org/" target="_blank">Notepad++</a> will be enough.
+								<br>Within the download you'll find all the Javascript files integrated with Habu, but
+								you have to perform the following steps to get the <code>node_modules</code> file
+								working.
+							</p>
+						</section>
+						<!--//docs-intro-->
+						<div class="callout-block callout-block-info">
+
+							<div class="content">
+								<h4 class="callout-title">
+									<span class="callout-icon-holder mr-1">
+										<i class="fas fa-info-circle"></i>
+									</span>
+									<!--//icon-holder-->
+									Note
+								</h4>
+								<p>Make sure you have <a href="https://nodejs.org/en/download/">Nodejs</a> installed in
+									your computer. For MacOS, it'll be okay with the Terminal, but for Windows, you will
+									need <a href="https://git-scm.com/downloads">Git Bash</a> to run the operation.</p>
+							</div>
+							<!--//content-->
+						</div>
+					</header>
+					<section class="docs-section" id="item-2-1">
+						<h2 class="section-heading">Process</h2>
+						<p>Open terminal (in MacOS) or Git Bash (in Windows) in the root <code>/source</code> directory.
+							Then hit the following command - </p>
+						<input type="text" class="form-control w-100" value="npm install" disabled
+							style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+						<p style="margin-top: 10px;"><b>Note: Make sure that all installation process is done in command
+								prompt.</b></p><br>
+						<p>After completing the previous step, run the following command in command prompt to run the
+							project in local machine. </p>
+						<input type="text" class="form-control w-100" value="npm run serve" disabled
+							style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading">File Structure</h2>
+						<p>Within the download you'll find the following file structure, logically grouped common
+							assets. Once downloaded, unzip the compressed folder to see the structure of the template.
+							You'll see something like this:</p>
+
+						<pre
+							class="prettyprint"><span class="pln">  </span><i class="fas fa-folder" aria-hidden="true"></i><span class="pln"> </span><span class="typ">Main</span><span class="pln"> </span><span class="typ">Directory</span><span class="pln"> </span><span class="pun">/</span><span class="pln">
+    </span><span class="pun">└───</span><span class="pln"> </span><i class="far fa-folder" aria-hidden="true"></i><span class="pln"> </span><span class="kwd">public</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-star" aria-hidden="true"></i><span class="pln"> apple</span><span class="pun">-</span><span class="pln">touch</span><span class="pun">-</span><span class="pln">icon</span><span class="pun">.</span><span class="pln">png 
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-star" aria-hidden="true"></i><span class="pln"> favicon</span><span class="pun">.</span><span class="pln">ico
+          </span><span class="pun">└───</span><span class="pln"> </span><i class="fab fa-html5" aria-hidden="true"></i><span class="pln"> index</span><span class="pun">.</span><span class="pln">html
+    </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-folder" aria-hidden="true"></i><span class="pln"> src</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-folder" aria-hidden="true"></i><span class="pln"> assets</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-folder" aria-hidden="true"></i><span class="pln"> components</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-folder" aria-hidden="true"></i><span class="pln"> pages</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-folder" aria-hidden="true"></i><span class="pln"> router</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="far fa-folder" aria-hidden="true"></i><span class="pln"> stylesheets</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">├───</span><span class="pln"> </span><i class="fab fa-vuejs" aria-hidden="true"></i><span class="pln"> </span><span class="typ">App</span><span class="pun">.</span><span class="pln">vue</span><span class="pun">/</span><span class="pln">
+          </span><span class="pun">└───</span><span class="pln"> </span><i class="fab fa-js-square" aria-hidden="true"></i><span class="pln"> main</span><span class="pun">.</span><span class="pln">js
+    </span><span class="pun">├───</span><span class="pln"> </span><i class="fab fa-git-alt" aria-hidden="true"></i><span class="pln"> </span><span class="pun">.</span><span class="pln">gitignore 
+    </span><span class="pun">├───</span><span class="pln"> </span><i class="fab fa-js-square" aria-hidden="true"></i><span class="pln"> babel</span><span class="pun">.</span><span class="pln">config</span><span class="pun">.</span><span class="pln">js       
+    </span><span class="pun">├───</span><span class="pln"> </span><i class="fab fa-node-js" aria-hidden="true"></i><span class="pln"> jsconfig</span><span class="pun">.</span><span class="pln">json
+    </span><span class="pun">├───</span><span class="pln"> </span><i class="fab fa-node-js" aria-hidden="true"></i><span class="pln"> </span><span class="kwd">package</span><span class="pun">.</span><span class="pln">json
+    </span><span class="pun">├───</span><span class="pln"> </span><i class="fab fa-node-js" aria-hidden="true"></i><span class="pln"> </span><span class="kwd">package</span><span class="pun">-</span><span class="kwd">lock</span><span class="pun">.</span><span class="pln">json
+    </span><span class="pun">├───</span><span class="pln"> </span><i class="fas fa-info-circle" aria-hidden="true"></i><span class="pln"> </span><span class="typ">Readme</span><span class="pun">.</span><span class="pln">md
+    </span><span class="pun">└───</span><span class="pln"> </span><i class="fab fa-js-square" aria-hidden="true"></i><span class="pln"> vue</span><span class="pun">.</span><span class="pln">config</span><span class="pun">.</span><span class="pln">js</span></pre>
+					</section>
+					<!--//section-->
+				</article>
+				<!--//docs-article-->
+
+
+				<article class="docs-article" id="section-3">
+					<header class="docs-header">
+						<h1 class="docs-heading">Page Structures</h1>
+						<section class="docs-intro">
+							<p>There are 11 pages in the template, including - <br>
+							<ul>
+								<li>Two Homepages</li>
+								<li>About Page</li>
+								<li>Pricing Page</li>
+								<li>Portfolio Page</li>
+								<li>Portfolio Details Page</li>
+								<li>FAQ Page</li>
+								<li>Career Page</li>
+								<li>Blog Page</li>
+								<li>Blog Details Page</li>
+								<li>Contact Page</li>
+							</ul>
+							with the following structures. You can change the order of the struturing components as your
+							wish, and edit them in the related component file.</p>
+						</section>
+						<!--//docs-intro-->
+					</header>
+					<section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">Homepage 1</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/c8f503d49a22033f02a17a6c92e7ac8b.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-2">
+						<h2 class="section-heading">Homepage 2</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/cc3b0a2383137f0fc25ce217535bdd89.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">About</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/f928406deaf4a0ce9eb910c387a700ca.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-4">
+						<h2 class="section-heading">Pricing</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/34a2ece9e07d477c5bc212cc14374230.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-5">
+						<h2 class="section-heading">Portfolio</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/a6eae78ecf459e7915651e2647b7a33e.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-6">
+						<h2 class="section-heading">Portfolio Details</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/4825bdeaa1dd366d847a11919673c4e8.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-7">
+						<h2 class="section-heading">FAQ</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/e6b90d365db5de9bb92efe1d53b359d1.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-8">
+						<h2 class="section-heading">Career</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/ae9be92b1c736095624efc6e86b5a6fc.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-9">
+						<h2 class="section-heading">Contact Page</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/e7666ab31897cf1e70ae8f3c54efd29e.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-10">
+						<h2 class="section-heading">Blog</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/2ff19970484f381bf589c675a6ddfba0.js"></script>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-3-11">
+						<h2 class="section-heading">Blog Details</h2>
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/d71f46c960dad3eb8365f95a637bb25c.js"></script>
+					</section>
+					<!--//section-->
+				</article>
+				<!--//docs-article-->
+
+				<article class="docs-article" id="section-4">
+					<header class="docs-header">
+						<h1 class="docs-heading">Layouts</h1>
+						<section class="docs-intro">
+							<p>A detailed manual about how to use the components, from where to import them, and
+								introductions to the props attached to them.
+								These components are used in the pages mentioned in the previous section.
+							</p>
+						</section>
+						<!--//docs-intro-->
+					</header>
+					<section class="docs-section" id="item-4-1">
+						<h2 class="section-heading">Top Header</h2>
+						<p>The topmost header, where the contact informations and social media links are given.</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import TopHeader from '@/components/layout/TopHeader'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	TopHeader,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<TopHeader />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/layouts/TopHeader.vue</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-2">
+						<h2 class="section-heading">Menu Style 1</h2>
+						<p>Designed for Homepage 1. In all the other pages except Homepage 2, this menu is used.</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import MenuStyle1 from '@/components/layout/MenuStyle1'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	MenuStyle1,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<MenuStyle1 />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/layouts/MenuStyle1.vue</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-3">
+						<h2 class="section-heading">Menu Style 2</h2>
+						<p>Designed for Homepage 2. This one is not used in any other pages.</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import MenuStyle2 from '@/components/layout/MenuStyle2'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	MenuStyle2,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<MenuStyle2 />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/layouts/MenuStyle2.vue</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-4">
+						<h2 class="section-heading">Page Header</h2>
+						<p>Designed for the pages other than homepages.</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import PageHeader from '@/components/layout/PageHeader'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	PageHeader,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position. For example, we are showing the use in
+								<code>About page</code> here -
+								<input type="text" class="form-control w-100"
+									value="<PageHeader pageTitle='About' parentPage='Home' />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>The final result will be like below -
+								<img src="assets/images/about.png" alt="Habu" style="width: 100%;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/layouts/PageHeader.vue</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-5">
+						<h2 class="section-heading">Sidebar</h2>
+						<p>It is used in the <code>Project Details</code> and <code>Blog Details</code> page, to show
+							the sidebar. We have used some
+							helping components inside it, like <code>search form</code>, <code>tagcloud</code>,
+							<code>adbanner</code> etc.
+						</p>
+
+						<h4>Structure</h4>
+						<script src="https://gist.github.com/Tasnim-Rizvy/6e97c8b320ea035c70b001737eb0e004.js"></script>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import Sidebar from '@/components/layout/Sidebar'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	PageHeader,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<Sidebar />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/layouts/Sidebar.vue</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-6">
+						<h2 class="section-heading">Reviews</h2>
+						<p>It is used in the two Homepages and the About page, to show the customer review and rating.
+						</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import Reviews from '@/components/common/Reviews'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	Reviews,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<Reviews />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/common/Reviews.vue</code>,
+							and do customization as your wish.</p>
+
+						<h4>Used Plugin</h4>
+						<p>We have used <code>Vue Slick Carousel</code> here, to show the reviews in a slider. <a
+								href="https://www.npmjs.com/package/vue-slick-carousel" target="_blank">See here how to
+								use and customize it.</a></p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-7">
+						<h2 class="section-heading">Custom Projects</h2>
+						<p>It is used in the <code>Pricing</code>, <code>Portfolio</code>, <code>FAQ</code>,
+							<code>Career</code> and <code>Contact</code> page.
+						</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import CustomProjects from '@/components/common/CustomProjects'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	CustomProjects,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<CustomProjects />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/common/CustomProjects.vue</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-8">
+						<h2 class="section-heading">Subscribe Form</h2>
+						<p>It is used in the <code>Blog</code> and <code>Blog Details</code> page, for collecting
+							subscribers.</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import SubscribeForm from '@/components/common/SubscribeForm'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	SubscribeForm,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<SubscribeForm />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/common/SubscribeForm.vue'</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-9">
+						<h2 class="section-heading">Comment Area</h2>
+						<p>It is used in the <code>Blog Details</code> page, for collecting subscribers.</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import CommentArea from '@/components/common/CommentArea'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	CommentArea,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<CommentArea />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/common/CommentArea.vue'</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-4-10">
+						<h2 class="section-heading">Footer</h2>
+						<p>The end of the pages.</p>
+
+						<h4>Usage</h4>
+						<ol>
+							<li>Import it like the example below -
+								<input type="text" class="form-control w-100"
+									value="import Footer from '@/components/layout/Footer'" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+							<li>Add it to the components.
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 127px;">
+components: {
+	Footer,
+	..........
+}</textarea>
+							</li>
+							<li>Use the code below in the desired position.
+								<input type="text" class="form-control w-100" value="<Footer />" disabled=""
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas;">
+							</li>
+						</ol>
+						<h4>Edit and Customization</h4>
+						<p>You can simply edit is if you know the basics of HTML, CSS, Javascript and Vuejs. Get the
+							file at <code>src/components/layout/Footer.vue'</code>,
+							and do customization as your wish.</p>
+					</section>
+					<!--//section-->
+				</article>
+				<!--//Components & Layouts-->
+
+
+				<article class="docs-article" id="section-5">
+					<header class="docs-header">
+						<h1 class="docs-heading">Stylesheets & Icons</h1>
+						<section class="docs-intro">
+							<p>A detailed manual about how to edit the css files, how to reorder them, and add more css
+								files. And, we have used <a
+									href="https://github.com/FortAwesome/vue-fontawesome">vue-fontawesome</a> Icons in
+								all over the template.</p>
+						</section>
+						<!--//docs-intro-->
+					</header>
+					<section class="docs-section" id="item-5-1">
+						<h2 class="section-heading">Stylesheets.</h2>
+						<p>They are in the <code>src/stylesheets</code> directory. We've included 3 CSS file here,
+							<code>style.css</code>, <code>default.css</code> and <code>responsive.css</code>. You can
+							edit them there.
+						</p>
+
+						<h4>How to add more CSS files</h4>
+						<p>Follow the steps -
+						<ol>
+							<li>Add a CSS files in the <code>src/stylesheets</code> directory.</li>
+							<li>Import it in the <code>App.vue</code> file -
+								<textarea type="text" class="form-control w-100" value="" disabled
+									style="color: rgb(106 106 106); font-family: Monaco, Menlo, Consolas; height: 225px;">
+<script>
+......
+import './stylesheets/default.css'
+import './stylesheets/style.css'
+import './stylesheets/responsive.css'
+import 'normalize.css'
+.........
+</script></textarea>
+							</li>
+							<li>And it's done.</li>
+						</ol>
+						</p>
+					</section>
+					<!--//section-->
+
+					<section class="docs-section" id="item-5-2">
+						<h2 class="section-heading">Icons</h2>
+						<p>We have used <code>vue-fontawesome</code> package all over the template. <a href="https://github.com/FortAwesome/vue-fontawesome#usage">Follow the instructions here</a> to know how to use it. You don't have to know the installing process, because they are already installed. Just follow the <code>Usage</code> section.</p>
+					</section>
+					<!--//section-->
+
+				</article>
+				<!--//Stylesheets & Icons-->
+
+
+				<article class="docs-article" id="section-6">
+					<header class="docs-header">
+						<h1 class="docs-heading">Support</h1>
+						<section class="docs-intro">
+							<p>Thank you for purchasing our template. If you have any questions that are beyond the scope of this help file, you can write to our support email with your purchase code, and please rate the template on themeforest if you liked it. Thank you so much!</p>
+
+							
+						</section>
+						<!--//docs-intro-->
+					</header>
+					<section class="docs-section" id="item-6-1">
+						<div class="row">
+							<div class="col-lg-4">Any questions that are beyond the scope of this help file, use support email. 
+								<a href="malito:asalam.jes@gmail.com" class="btn btn-secondary" style="margin-top: 15px; border-radius: 0;">Mail to support</a></div>
+							<div class="col-lg-4">Follow us on themeforest and don't miss new upcoming premium themes.
+								<a href="http://themeforest.net/user/themexplosion/follow" class="btn btn-success" style="margin-top: 15px; border-radius: 0;">Follow us on themeforest</a>
+							</div>
+							<div class="col-lg-4">If you liked the template you can rate it on themeforest in your downloads menu.
+								<a href="http://themeforest.net/user/themexplosion/portfolio" class="btn btn-warning" style="margin-top: 15px; border-radius: 0;">Rate the item</a>
+							</div>
+						</div>
+					</section>
+				</article>
+				<!--//Support-->
+
+
+				<footer class="footer">
+					<div class="container text-center py-5">
+						<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+						<small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by
+							<a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying
+								Riley</a> for developers.</small><br>
+						<small class="copyright">Team Themexplosion is greatly thankful to her.</small>
+						<ul class="social-list list-unstyled pt-4 mb-0">
+							<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
+						</ul>
+						<!--//social-list-->
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+	<!--//docs-wrapper-->
+
+
+
+	<!-- Javascript -->
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+	<!-- Page Specific JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+	<script src="assets/js/highlight-custom.js"></script>
+	<script src="assets/plugins/jquery.scrollTo.min.js"></script>
+	<script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+	<script src="assets/js/docs.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+pre.prettyprint {
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    background: rgb(238, 238, 238);
+    padding: 30px;
+}
+
+.docs-article h4 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+article#section-3 a {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}

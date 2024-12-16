@@ -1,0 +1,7 @@
+change const axios = require('axios'); in backend-api.js
+
+
+add generate-sitemap.js file in main 
+
+
+run node gen file name
