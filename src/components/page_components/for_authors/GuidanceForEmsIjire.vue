@@ -1,7 +1,7 @@
 <template>
-    <section class="speciality-area ">
-        <div class="flex-wrap flex-sm-nowrap" style="display: flex;justify-content: space-around;">
-            <div style="width: 200px;">
+    <section class="speciality-area p-3">
+        <div class="" style="display: flex;justify-content: space-around;">
+            <div class="d-none d-md-block" style="width: 200px;">
                 <p class="blink mb-5"> <a href="http://editorial.fdrpjournals.org/login?journal=1"
                         style="color: #fff;">Submit Research Paper</a> </p>
 
@@ -33,10 +33,10 @@
                     </div>
                 </div>
             </div>
-            <div class="container" style="max-width: 1000px !important; margin: 0">
-                <div class="row">
-                    <div class="row">
-                        <div class="container col-lg-12 col-md-12 mt-3" style="max-width: 100vw;">
+            <div class="container px-3" style=" margin: 0;">
+                <div class="">
+                    <div class="row ">
+                        <div class="container col-lg-12 col-md-12 mt-3" >
                             <h2 class="headingThree" style="font-size: 1.5em; margin-bottom: 30px; font-weight: bold;">
                                 1. How to submit article?
                             </h2>
@@ -53,7 +53,7 @@
                                     send Notification registered Email, Mobile No.</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img width="690" height="315"
+                                <img  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/ijireimageone.png"
                                     class="img-fluid" />
                             </div>
@@ -74,7 +74,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="row justify-content-center mx-auto p-sm-4" style="max-width: 90vw;">                                <iframe width="690" height="315" src="https://www.youtube.com/embed/RUtHKw7v4II"
+                            <div class="row justify-content-center mx-auto p-sm-4" style="max-width: 90%;">                                <iframe  height="315" src="https://www.youtube.com/embed/RUtHKw7v4II"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
@@ -92,7 +92,7 @@
                                     Task with Status.</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img width="690" height="315"
+                                <img  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagetwo.png"
                                     class="img-fluid" />
                             </div>
@@ -108,7 +108,7 @@
                                     minor correction/ Reject notification will send to author.</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img width="690" height="315"
+                                <img  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagethree.jpg"
                                     class="img-fluid" />
                             </div>
@@ -124,7 +124,7 @@
                                 </p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img width="690" height="315"
+                                <img height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagefour.jpg"
                                     class="img-fluid" />
                             </div>
@@ -142,7 +142,7 @@
                                     signature)</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img width="690" height="315"
+                                <img  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagefive.jpg"
                                     class="img-fluid" />
                             </div>
@@ -150,7 +150,7 @@
                                 <p>b) Final Manuscript (As per our journal format)</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img width="690" height=""
+                                <img  height=""
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagesevan.jpg"
                                     class="img-fluid" />
                             </div>
@@ -158,7 +158,7 @@
                                 <p>c) Article Processing fee receipt (with DOI, With out DOI) </p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img width="690" height="315"
+                                <img  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagesix.jpg"
                                     class="img-fluid" />
                             </div>
@@ -168,8 +168,8 @@
                                     Documents.
                                     We will process your article. Article will publish with in 24hrs to 48hrs.</p>
                             </div>
-                            <div class="row justify-content-center mx-auto p-sm-4" style="max-width: 90vw;">
-                                <iframe width="690" height="315" src="https://www.youtube.com/embed/WiJSjpbj2Ns"
+                            <div class="row justify-content-center mx-auto p-sm-4" style="max-width: 90%;">
+                                <iframe  height="315" src="https://www.youtube.com/embed/WiJSjpbj2Ns"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
@@ -183,8 +183,8 @@
                                     Copy and
                                     Journal Archive link also.</p>
                             </div>
-                            <div class="row justify-content-center mx-auto p-sm-4" style="max-width: 90vw;">
-                                <iframe width="690" height="315" src="https://www.youtube.com/embed/okLj9H5dZbI"
+                            <div class="row justify-content-center mx-auto p-sm-4" style="max-width: 90%;">
+                                <iframe  height="315" src="https://www.youtube.com/embed/okLj9H5dZbI"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
@@ -193,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div style="width: 200px;">
+            <div class="d-none d-md-block" style="width: 200px;">
                 <div class="mb-5">
                     <router-link to="/editorsandreviewers">
                         <p class="blink">Join As A reviewer</p>
@@ -408,4 +408,8 @@ export default {
     /* Maintains aspect ratio */
     margin-bottom: 10px;
 }
+.handelwidth{
+    width: auto;
+}
+
 </style>

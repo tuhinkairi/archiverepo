@@ -13,7 +13,7 @@
           >
         </div>
       </div>
-      <div class="details-container mt-4 p-3">
+      <div class="details-container mt-4 p-3 " style="max-width: 100vw;">
         <p class="pb-3"><b>Author(s) : </b>{{ paperDetails.paper_author }}</p>
         <p class="pb-3">
           <b>Submission-Year,Month : </b>{{ paperDetails.year }},

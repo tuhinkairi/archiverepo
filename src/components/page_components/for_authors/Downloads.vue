@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section class="speciality-area">
-      <div class="flex-wrap flex-lg-nowrap" style="display: flex;justify-content: space-around;">
-        <div class="controlling">
+    <section class="speciality-area p-3">
+      <div class="" style="display: flex;justify-content: space-around;">
+        <div class="controlling d-none d-md-block" style="width: 200px;">
           <p class="blink mb-5"> <a href="http://editorial.fdrpjournals.org/login?journal=1" style="color: #fff;">Submit
               Research Paper</a> </p>
 
@@ -34,12 +34,12 @@
             </div>
           </div>
         </div>
-        <div class="container" style="height: 392px;max-width: 1000px !important; margin: 0">
-          <div class="row justify-content-center d-flex ">
+        <div class="container" style="max-width: 1000px !important; margin: 0">
+          <div class="row justify-content-center d-flex " >
             <div class="col-lg-9 col-md-9 ">
-              <div class="row d-flex align-items-center justify-content-center ">
-                <div class="col-lg-4 col-md-4 col-sm-4 indexingImage single-pricing-table">
-                  <div class="" style="text-align: center; padding-top: 80px">
+              <div class="row d-flex align-items-center justify-content-center  ">
+                <div class="col-lg-4 col-md-4 col-sm-4 indexingImage single-pricing-table d-flex align-content-center justify-content-center" style="min-width: 200px; padding: 40px;">
+                  <div class="d-flex align-content-center flex-column justify-content-center" style="text-align: center;">
                     <h2 style="font-size: 1.2em;">Manuscript Template</h2>
                     <button @click="getManuScript('https://panel.theijire.com/storage/templates/manuscript.docx')"
                       class="btn m-2">
@@ -47,9 +47,9 @@
                     </button>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 indexingImage single-pricing-table">
-                  <div style="text-align: center; padding-top: 80px">
-                    <h2 class="justify content center" style="font-size: 1.2em;">Copyright Form</h2>
+                <div class="col-lg-4 col-md-4 col-sm-4 indexingImage single-pricing-table d-flex align-content-center justify-content-center" style="min-width: 200px; padding: 40px;">
+                  <div class="d-flex align-content-center flex-column justify-content-center" style="text-align: center;">
+                    <h2 class="" style="font-size: 1.2em;">Copyright Form</h2>
                     <button @click="getCopyRightForm('https://panel.theijire.com/storage/templates/copyrights.pdf')"
                       class="btn m-2">
                       Download
@@ -61,7 +61,7 @@
           </div>
         </div>
         
-        <div class="controlling handelTop">
+        <div class="controlling d-none d-md-block" style="width: 200px;">
           <div class="mb-5">
             <router-link to="/editorsandreviewers">
               <p class="blink">Join As A reviewer</p>
@@ -294,24 +294,5 @@ export default {
   margin-bottom: 10px;
 }
 
-.controlling {
-  width: auto;
-  /* Default: Automatically adjust to content */
-}
 
-@media (min-width: 1000px) {
-  .controlling {
-    width: 200px;
-    /* Fixed width of 200px for screens >= 720px */
-  }
-}
-.handelTop{
-  margin-top: auto;
-}
-@media (max-width: 577px) {
-  .handelTop {
-    margin-top: 250px;
-    /* Fixed width of 200px for screens >= 720px */
-  }
-}
 </style>
