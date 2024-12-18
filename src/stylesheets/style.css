@@ -601,7 +601,7 @@ section.projects-area {
 
 section.speciality-area {
     margin-top: 40px;
-    max-width: 100%;
+    max-width: 100vw;
 }
 
 .sp-text {

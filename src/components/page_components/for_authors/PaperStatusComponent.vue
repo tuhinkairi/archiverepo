@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section class="speciality-area">
+    <section class="speciality-area p-2">
       <div style="display: flex;justify-content: space-around;">
-        <div style="width: 200px;" class="left-side-container mr-2">
+        <div style="width: 200px;" class="left-side-container d-none d-lg-block">
           <p class="blink mb-5"> <a href="http://editorial.fdrpjournals.org/login?journal=1" style="color: #fff;">Submit
               Research Paper</a> </p>
 
@@ -37,11 +37,11 @@
       <div class="container" >
         <div class="justify-content-between submission">
           <div class="col">
-            <h2 class="pb-3" style="font-size: 1.5em; font-weight: bold; margin-bottom: 15px; display: block;">Author can check the article status by using Author login Credential</h2>
+            <h2 class="pb-3 text-center" style="font-size: 1.5em; font-weight: bold; margin-bottom: 15px; display: block;">Author can check the article status by using Author login Credential</h2>
             <div class="m-1">
-              <div class="row m-1 pt-3">
+              <div class=" m-1 pt-3">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                  <img src="../../../assets/Images/paper-status.png" style="max-width: 900px;" />
+                  <img src="../../../assets/Images/paper-status.png" style="width: 100%;" />
                 </div>
               </div>
               <div class="btn-click"> 
@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-      <div style="width: 200px;" class="right-side-container ml-2">
+      <div style="width: 200px;" class="right-side-container d-none d-lg-block">
           <div class="mb-5">
             <router-link to="/editorsandreviewers">
               <p class="blink">Join As A reviewer</p>
