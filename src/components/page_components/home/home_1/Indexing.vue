@@ -1,12 +1,11 @@
 <template>
-  <div>
+  <div class="">
     <div class="col-12 p-4">
       <div class="col-12 row mx-auto justify-center" style="justify-content: center;">
-        <div class="col-lg-2 col-md-3 col-sm-3  indexingImage single-pricing-table" v-for="data in indexingList"
+        <div class="  indexingImage single-pricing-table" v-for="data in indexingList"
           :key="data.indexing_id" v-b-tooltip.hover.bottom @click="openIndexingURL(data.indexing_url)"
           :title="data.indexing_name">
-          <img :src="data.indexing_image_url" class="rounded mx-auto d-block fixed-size-img"
-            :style="{ width: '255px', height: '125px' }" />
+          <img :src="data.indexing_image_url" class="rounded mx-auto d-block fixed-size-img" style="width: 200px;" />
         </div>
       </div>
     </div>
