@@ -3,12 +3,12 @@
     <div class="post flex-fill">
       <!-- <div class="post-thumbnail">
         <a href="javascript:void(0)"
-          ><img v-bind:src="postThumbnail" alt="Habu"
+          ><img alt="image" v-bind:src="postThumbnail" alt="Habu"
         /></a>
       </div> -->
       <div class="post-excerpt">
         <!-- <a href="javascript:void(0)" class="category">{{ category }}</a> -->
-          <p><span><img
+          <p><span><img alt="image"
                   src="../../../assets/Images/tick.png"
                   class="tick mr-2"
                   width="25"

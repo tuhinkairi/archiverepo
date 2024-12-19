@@ -23,8 +23,9 @@
             </div>
             <div class="row justify-content-between">
               <div class="col-lg-12 col-md-12">
+                <!-- font-size updated -->
                 <div
-                  class="banner-text wow animate__animated animate__fadeInDown"
+                  class="text-center font-weight-bold fs-2 animate__animated animate__fadeInDown"
                 >
                   <h1 class="heading-title">
                     International Journal of Innovative Research in Engineering

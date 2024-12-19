@@ -17,10 +17,10 @@
                     </p>
                 </div>
                 <div class="shadow-effect mb-5">
-                    <img src="../../../assets/Images/isn.jpg" height="90" width="200" />
+                    <img alt="image" src="../../../assets/Images/isn.jpg" height="90" width="200" />
                 </div>
                 <div class="shadow-effect mb-5">
-                    <img src="../../../assets/Images/cc.jpg" height="90" width="180" />
+                    <img alt="image" src="../../../assets/Images/cc.jpg" height="90" width="180" />
                     <p>All research Article published on this website are licensed under Creative Commons
                         Attribution-ShareAlike
                         4.0
@@ -29,7 +29,7 @@
                 </div>
                 <div class="image-container mb-5">
                     <div class="image-wrapper" v-for="(item, index) in images" :key="index">
-                        <img :src="item.img" height="50" width="80" />
+                        <img alt="image" :src="item.img" height="50" width="80" />
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                                     send Notification registered Email, Mobile No.</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img  height="315"
+                                <img alt="image"  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/ijireimageone.png"
                                     class="img-fluid" />
                             </div>
@@ -92,7 +92,7 @@
                                     Task with Status.</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img  height="315"
+                                <img alt="image"  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagetwo.png"
                                     class="img-fluid" />
                             </div>
@@ -108,7 +108,7 @@
                                     minor correction/ Reject notification will send to author.</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img  height="315"
+                                <img alt="image"  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagethree.jpg"
                                     class="img-fluid" />
                             </div>
@@ -124,7 +124,7 @@
                                 </p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img height="315"
+                                <img alt="image" height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagefour.jpg"
                                     class="img-fluid" />
                             </div>
@@ -142,7 +142,7 @@
                                     signature)</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img  height="315"
+                                <img alt="image"  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagefive.jpg"
                                     class="img-fluid" />
                             </div>
@@ -150,7 +150,7 @@
                                 <p>b) Final Manuscript (As per our journal format)</p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img  height=""
+                                <img alt="image"  height=""
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagesevan.jpg"
                                     class="img-fluid" />
                             </div>
@@ -158,7 +158,7 @@
                                 <p>c) Article Processing fee receipt (with DOI, With out DOI) </p>
                             </div>
                             <div class="row justify-content-center p-4">
-                                <img  height="315"
+                                <img alt="image"  height="315"
                                     src="../../../assets/Images/Guidance-for-Ems-ijire/imagesix.jpg"
                                     class="img-fluid" />
                             </div>
@@ -200,11 +200,11 @@
                     </router-link>
                 </div>
                 <div class="shadow-effect mb-5">
-                    <img src="../../../assets/Images/tur.jpg" height="90" width="180" />
+                    <img alt="image" src="../../../assets/Images/tur.jpg" height="90" width="180" />
                     <p>Plagiarism is checked by the leading plagiarism checker</p>
                 </div>
                 <div class="shadow-effect mb-5">
-                    <img src="../../../assets/Images/doi.jpg" height="90" width="180" />
+                    <img alt="image" src="../../../assets/Images/doi.jpg" height="90" width="180" />
                     <p>CrossRef DOI is assigned to research Article published in our journal.
                         IJIRE DOI prefix is10.59256/ijire
                     </p>

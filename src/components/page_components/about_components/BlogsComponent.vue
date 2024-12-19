@@ -8,7 +8,7 @@
               HOW TO GET PUBLISHED IN A SCIENTIFIC JOURNAL :
             </h5>
             <div>
-              <img
+              <img alt="image"
                 height="450"
                 width="500"
                 src="../../../assets/Images/Features.png"
@@ -54,7 +54,7 @@
           </div>
           <div class="col">
             <h5 class="recentPosts">Recent Posts :</h5>
-            <img
+            <img alt="image"
               height="200"
               width="250"
               src="../../../assets/Images/GlobalPublisher.png"
