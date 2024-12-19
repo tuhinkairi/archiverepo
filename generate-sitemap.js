@@ -8,7 +8,6 @@
 const apiService = require('./src/util/backend-api.js');
 const fs = require('fs');
 const { SitemapStream, streamToPromise } = require('sitemap');
-const axios = require('axios');
 
 const sitemapStream = new SitemapStream({ hostname: 'https://theijire.com/' });
 

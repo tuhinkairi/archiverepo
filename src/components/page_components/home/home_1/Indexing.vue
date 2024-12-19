@@ -5,7 +5,7 @@
         <div class="  indexingImage single-pricing-table" v-for="data in indexingList"
           :key="data.indexing_id" v-b-tooltip.hover.bottom @click="openIndexingURL(data.indexing_url)"
           :title="data.indexing_name">
-          <img :alt="brand_image" :src="data.indexing_image_url" class="rounded mx-auto d-block fixed-size-img" style="width: 200px;" />
+          <img alt="brand_image" :src="data.indexing_image_url" class="rounded mx-auto d-block fixed-size-img" style="width: 200px;" />
         </div>
       </div>
     </div>
@@ -29,7 +29,6 @@ export default {
     getIndexing: function () {
       this.api.postData("indexfetch").then(
         (res) => {
-          console.log(res.data);
           this.indexingList = res.data.indexingList;
         },
         (err) => {
