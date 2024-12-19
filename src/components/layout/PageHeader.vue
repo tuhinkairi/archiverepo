@@ -30,7 +30,7 @@
             <img
               src="@/assets/Images/dotOne.png"
               class="wow animate__animated animate__fadeInUp animate__delay-1s"
-              alt=""
+              alt="image"
             />
           </div>
         </div>

@@ -4,7 +4,7 @@
         <div class="branding" style="border-right: 3px solid black">
           <router-link to="/" class="logotag">
             <div>
-              <img
+              <img alt="image"
                 src="../../assets/Images/FinalLogos.png"
                 class=""
                 height="50"
