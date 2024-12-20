@@ -13,6 +13,7 @@
           :title="data.indexing_name"
         >
           <img
+          alt="image"
             :src="data.indexing_image_url"
             class="rounded mx-auto d-block"
             width="250"

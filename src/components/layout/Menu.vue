@@ -5,6 +5,7 @@
           <router-link to="/" class="logotag">
             <div>
               <img
+              alt="image"
                 src="../../assets/Images/FinalLogos.png"
                 class=""
                 height="50"

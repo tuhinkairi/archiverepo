@@ -18,10 +18,10 @@
             </p>
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/isn.jpg" height="90" width="200" />
+            <img alt="image" src="../../../assets/Images/isn.jpg" height="90" width="200" />
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/cc.jpg" height="90" width="180" />
+            <img alt="image" src="../../../assets/Images/cc.jpg" height="90" width="180" />
             <p>All research Article published on this website are licensed under Creative Commons
               Attribution-ShareAlike
               4.0
@@ -30,7 +30,7 @@
           </div>
           <div class="image-container mb-5">
             <div class="image-wrapper" v-for="(item, index) in images" :key="index">
-              <img :src="item.img" height="50" width="80" />
+              <img alt="image" :src="item.img" height="50" width="80" />
             </div>
           </div>
         </div>
@@ -160,11 +160,11 @@
             </router-link>
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/tur.jpg" height="90" width="180" />
+            <img alt="image" src="../../../assets/Images/tur.jpg" height="90" width="180" />
             <p>Plagiarism is checked by the leading plagiarism checker</p>
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/doi.jpg" height="90" width="180" />
+            <img alt="image" src="../../../assets/Images/doi.jpg" height="90" width="180" />
             <p>CrossRef DOI is assigned to research Article published in our journal.
               IJIRE DOI prefix is10.59256/ijire
             </p>

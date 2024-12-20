@@ -34,10 +34,10 @@
             </p>
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/isn.jpg" height="90" width="200" />
+            <img alt="image" src="../../../assets/Images/isn.jpg" height="90" width="200" />
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/cc.jpg" height="90" width="180" />
+            <img alt="image" src="../../../assets/Images/cc.jpg" height="90" width="180" />
             <p>
               All research Article published on this website are licensed under
               Creative Commons Attribution-ShareAlike 4.0 International License,
@@ -50,7 +50,7 @@
               v-for="(item, index) in images"
               :key="index"
             >
-              <img :src="item.img" height="50" width="80" />
+              <img alt="image" :src="item.img" height="50" width="80" />
             </div>
           </div>
         </div>
@@ -100,9 +100,9 @@
                   :key="index"
                 >
                   <div class=" col-lg-3 col-md-12 col-sm-12 p-3 editorialImage">
-                    <img class="handelImageSize" :src="data.member_image_url" alt="img" />
+                    <img alt="image" class="handelImageSize" :src="data.member_image_url"  />
                   </div>
-                  <div class="col-lg-9 col-md-12 col-sm-12 p-3">
+                  <div class="col-lg-9 col-md-12 col-sm-12 p-3"> 
                     <h3 style="font-size: 1em;">{{ data.member_role }}</h3>
                     <p><b>Name:</b>{{ data.member_name }}</p>
                     <p><b>Designation:</b> {{ data.member_designation }}</p>
@@ -124,11 +124,11 @@
             </router-link>
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/tur.jpg" height="90" width="180" />
+            <img alt="image" src="../../../assets/Images/tur.jpg" height="90" width="180" />
             <p>Plagiarism is checked by the leading plagiarism checker</p>
           </div>
           <div class="shadow-effect mb-5">
-            <img src="../../../assets/Images/doi.jpg" height="90" width="180" />
+            <img alt="image" src="../../../assets/Images/doi.jpg" height="90" width="180" />
             <p>
               CrossRef DOI is assigned to research Article published in our
               journal. IJIRE DOI prefix is10.59256/ijire

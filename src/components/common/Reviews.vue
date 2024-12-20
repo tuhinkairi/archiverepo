@@ -24,16 +24,16 @@
           <div>
             <div class="review">
               <div class="review-text">
-                <img src="../../assets/Images/reviewOne.png" width="31" height="27"/>
+                <img alt="image" src="../../assets/Images/reviewOne.png" width="31" height="27"/>
                 <p>
                   Li lingues differe solmen in li grammat ca, li pronuncia tion
                   e li plu commun vocabules. Omnicos directe al desi lite de un
                   nov lingua fusa.
                 </p>
-                <img src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
+                <img alt="image" src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
               </div>
               <div class="client-profile">
-                <img src="@/assets/clients/client.png" alt="Habu" />
+                <img  src="@/assets/clients/client.png" alt="Habu" />
                 <div class="client-details">
                   <h2>Nathaneal Down</h2>
                   <p>HD Manager</p>
@@ -47,13 +47,13 @@
           <div>
             <div class="review">
               <div class="review-text">
-                <img src="../../assets/Images/reviewOne.png" width="31" height="27"/>
+                <img alt="image" src="../../assets/Images/reviewOne.png" width="31" height="27"/>
                 <p>
                   Li lingues differe solmen in li grammat ca, li pronuncia tion
                   e li plu commun vocabules. Omnicos directe al desi lite de un
                   nov lingua fusa.
                 </p>
-                <img src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
+                <img alt="image" src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
               </div>
               <div class="client-profile">
                 <img src="@/assets/clients/client.png" alt="Habu" />
@@ -70,16 +70,16 @@
           <div>
             <div class="review">
               <div class="review-text">
-                <img src="../../assets/Images/reviewOne.png" width="31" height="27"/>
+                <img alt="image" src="../../assets/Images/reviewOne.png" width="31" height="27"/>
                 <p>
                   Li lingues differe solmen in li grammat ca, li pronuncia tion
                   e li plu commun vocabules. Omnicos directe al desi lite de un
                   nov lingua fusa.
                 </p>
-                <img src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
+                <img alt="image" src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
               </div>
               <div class="client-profile">
-                <img src="@/assets/clients/client-02.png" alt="Habu" />
+                <img  src="@/assets/clients/client-02.png" alt="Habu" />
                 <div class="client-details">
                   <h2>Nathaneal Down</h2>
                   <p>HD Manager</p>
@@ -93,16 +93,16 @@
           <div>
             <div class="review">
               <div class="review-text">
-                <img src="../../assets/Images/reviewOne.png" width="31" height="27"/>
+                <img alt="image" src="../../assets/Images/reviewOne.png" width="31" height="27"/>
                 <p>
                   Li lingues differe solmen in li grammat ca, li pronuncia tion
                   e li plu commun vocabules. Omnicos directe al desi lite de un
                   nov lingua fusa.
                 </p>
-                <img src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
+                <img alt="image" src="../../assets/Images/reviewTwo.png" width="31" height="27"   class="float-right"/>
               </div>
               <div class="client-profile">
-                <img src="@/assets/clients/client-02.png" alt="Habu" />
+                <img  src="@/assets/clients/client-02.png" alt="Habu" />
                 <div class="client-details">
                   <h2>Nathaneal Down</h2>
                   <p>HD Manager</p>
