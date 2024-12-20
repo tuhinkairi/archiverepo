@@ -27,7 +27,7 @@
                 <div
                   class="text-center font-weight-bold fs-2 animate__animated animate__fadeInDown"
                 >
-                  <h1 class="heading-title">
+                  <h1 class="heading-title" style="font-weight: bolder;">
                     International Journal of Innovative Research in Engineering
                   </h1>
                   <p class="banner-sub-content ">
