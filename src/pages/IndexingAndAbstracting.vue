@@ -2,22 +2,23 @@
   <div>
     <MenuStyle1 />
     <PageHeader pageTitle="Indexing And Abstracting" parentPage="About" />
-    <div class="col-12 p-4 ImageContainer">
-      <div class="col-8 row mx-auto justify-center">
+    <div class=" col-12 p-4 ">
+      <div class=" col-12 row mx-auto justify-center" style="justify-content: center;">
         <div
-          class="col-lg-3 col-md-3 col-sm-3 m-3 indexingImage single-pricing-table"
+          class=" m-3 indexingImage single-pricing-table"
           v-for="data in indexingList"
           :key="data.indexing_id"
           v-b-tooltip.hover.bottom
           @click="openIndexingURL(data.indexing_url)"
           :title="data.indexing_name"
+          
         >
           <img
           alt="image"
             :src="data.indexing_image_url"
             class="rounded mx-auto d-block"
-            width="250"
-            height="150"
+            
+            style="max-width: 200px;"
           />
         </div>
       </div>
