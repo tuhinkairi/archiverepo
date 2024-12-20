@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="speciality-area p-3">
+    <section class=" p-3">
       <div class="" style="display: flex;justify-content: space-around;">
         <div class="controlling d-none d-md-block" style="width: 200px;">
           <p class="blink mb-5"> <a href="http://editorial.fdrpjournals.org/login?journal=1" style="color: #fff;">Submit
